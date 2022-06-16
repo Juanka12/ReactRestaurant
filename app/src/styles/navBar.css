@@ -1,0 +1,64 @@
+.navBar {
+    background-color: #990000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+
+.page-name {
+    font-size: 2rem;
+}
+
+.navBar ul {
+    padding: 0;
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navBar a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    padding: .25rem;
+}
+
+.logo {
+    height: 2rem;
+}
+
+.secondaryNavBar li.active {
+    background-color: #555;
+}
+
+.secondaryNavBar {
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.secondaryNavBar ul {
+    padding: 0;
+    margin: 0.25rem;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.secondaryNavBar a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: baseline;
+    padding: .25rem;
+}

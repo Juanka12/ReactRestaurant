@@ -1,0 +1,18 @@
+.foodList {
+    color: black;
+    display: block;
+    list-style: none;
+}
+
+.foodList li {
+    margin-bottom: 5rem;
+}
+
+.foodList h1 {
+    font-size: 2rem;
+    text-align: start;
+}
+
+.description {
+    text-align: start;
+}

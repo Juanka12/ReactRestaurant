@@ -1,0 +1,60 @@
+.card {
+    position: relative;
+    --padding: 1rem;
+    background: white;
+    text-align: start;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover > .card-header > img {
+    transform: scale(1.025);
+}
+
+.card-header {
+    padding: 0;
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.card-header > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    transition: 200ms transform ease-in-out;
+}
+
+.card-body {
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.card-footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 0;
+}
+
+.btn {
+    background: #FF5B00;
+    color: white;
+    border: none;
+    padding: 0.5em 0.75em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+}
+.btn:hover {
+    background: #990000;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+}
