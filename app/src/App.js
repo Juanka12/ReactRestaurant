@@ -5,12 +5,13 @@ import Carta from "./pages/carta";
 import Offers from "./pages/offers";
 import Carrito from "./pages/carrito"
 import { Route, Routes} from "react-router-dom";
+import { ShoppingCartProvider } from "./context/shoppingCartContext";
 import './styles/app.css'
 
 function App() {
     
     return (
-        <>
+        <ShoppingCartProvider>
             <Navbar/>
             <div className="main-container">
                 <Routes>
@@ -21,7 +22,7 @@ function App() {
                     <Route path="/about" element={<About/>}/>
                 </Routes>
             </div>
-        </>
+        </ShoppingCartProvider>
     )
 }
 

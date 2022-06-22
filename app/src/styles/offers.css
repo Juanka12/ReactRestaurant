@@ -1,0 +1,6 @@
+.ticket-grid-row {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    row-gap: 2rem;
+}

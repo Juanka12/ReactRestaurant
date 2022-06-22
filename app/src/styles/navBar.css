@@ -44,11 +44,15 @@
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
 }
 
 .secondaryNavBar ul {
     padding: 0;
-    margin: 0.25rem;
+    margin: 0.3rem;
     list-style: none;
     display: flex;
     gap: 3rem;

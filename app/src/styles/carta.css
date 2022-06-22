@@ -2,6 +2,7 @@
     color: black;
     display: block;
     list-style: none;
+    padding-inline-start: 4%;
 }
 
 .foodList li {
@@ -9,7 +10,7 @@
 }
 
 .foodList h1 {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: start;
 }
 

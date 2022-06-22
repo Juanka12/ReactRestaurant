@@ -1,0 +1,73 @@
+.about-container {
+    text-align: start;
+    padding-left: 5%;
+}
+
+.about-container > h1 {
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+.about-lines {
+    list-style: none;
+    display: block;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.about-descriptions {
+    margin-left: 2%;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.line {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    margin: 3rem;
+    margin-left: 0;
+}
+
+.about-form {
+    display: block;
+    margin: 2%;
+}
+
+.form-set {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.form-label {
+    text-align: left;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.form-input {
+    width: 50%;
+    padding: 0.5em 0.8em;
+    float: right;
+    margin-right: 15%;
+
+    -ms-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box; 
+}
+
+.text-area {
+    resize: vertical;
+    min-height: 10em;
+}
+
+.about-form > button {
+    background: #FF5B00;
+    color: white;
+    border: none;
+    padding: 0.8em 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin-top: 10rem;
+}
+.about-form > button:hover {
+    background: #990000;
+}
