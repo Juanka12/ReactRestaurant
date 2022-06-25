@@ -11,7 +11,7 @@ function Carrito() {
             {cartItems.map(item => {
                 return <CartItem key={item.id} params={item}></CartItem>
             })}
-            <div>
+            <div className="shoppingCart-totalPrice">
                 Total {CurrencyFormater(cartItems.reduce((total, cartItem) => {
                     const item = shopItems.find(x => x.id === cartItem.id)
                     return total + (item?.price || 0) * cartItem.qty

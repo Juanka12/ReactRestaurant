@@ -2,23 +2,38 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+    height: 12vh;
     align-items: center;
     margin: auto;
+    margin-top: 2rem;
+    padding-right: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0 1rem -0.2rem rgba(0, 0, 0, 0.8);
 }
 
 .cart-item-img {
-    width: 20%;
-    height: 140px;
+    width: 22%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
 }
 
 .cart-item-title {
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1.8vh;
+    width: 30%;
+    text-align: start;
+}
+
+.cart-item-price {
+    font-weight: 500;
+    padding-top: 0.5%;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .cart-item-qty {
     display: flex;
-    column-gap: 1rem;
+    column-gap: 1vw;
     justify-content: space-between;
     align-items: center;
 }

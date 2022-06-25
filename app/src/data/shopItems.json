@@ -4,7 +4,7 @@
         "familyId": 0,
         "name": "Pizza Pepperoni",
         "description": "Tomato sauce, extra cheese mozzarella and double pepperoni.",
-        "price": 10,
+        "price": 9.99,
         "imgUrl": "https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale"
     },
     {
@@ -12,7 +12,7 @@
         "familyId": 0,
         "name": "Four Cheese Pizza",
         "description": "Tomato sauce, mozzarella, cheddar, emmental and gorgonzola cheese.",
-        "price": 10,
+        "price": 9.99,
         "imgUrl": "https://kitchenatics.com/wp-content/uploads/2020/09/Cheese-pizza-1.jpg"
     },
     {
@@ -20,7 +20,7 @@
         "familyId": 0,
         "name": "Vegetable Pizza",
         "description": "Tomato sauce, mozzarella cheese, black olives, onion, red peppers, mushrooms.",
-        "price": 10,
+        "price": 9.99,
         "imgUrl": "https://www.twopeasandtheirpod.com/wp-content/uploads/2021/03/Veggie-Pizza-8-500x375.jpg"
     },
     {
@@ -28,7 +28,7 @@
         "familyId": 1,
         "name": "Spaghetti Carbonara",
         "description": "Prosciutto with onions in a cream sauce.",
-        "price": 10,
+        "price": 5.74,
         "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-0e6ca9f.jpg?quality=90&resize=500,454"
     },
     {
@@ -36,7 +36,7 @@
         "familyId": 1,
         "name": "Tortellini",
         "description": "With garlic marinated mushrooms and mozzarella cheese.",
-        "price": 10,
+        "price": 6,
         "imgUrl": "https://www.kosher.com/resized/open_graph/n/e/Newman_Tortellini_with_creamy_white_wine_sauce.png"
     },
     {
@@ -44,7 +44,7 @@
         "familyId": 1,
         "name": "Lasagna Bolognese",
         "description": "Meat sauce mixed with bechamel in the inside and grated parmigiano cheese on top.",
-        "price": 10,
+        "price": 7.49,
         "imgUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-lasagna-bolognese-horizontal-1543346979.png"
     },
     {
@@ -52,7 +52,7 @@
         "familyId": 2,
         "name": "Greek Salad",
         "description": "Cherry tomatoes, red onion, cucumber, green pepper and romaine lettuce.",
-        "price": 10,
+        "price": 4.59,
         "imgUrl": "https://www.spendwithpennies.com/wp-content/uploads/2018/06/Greek-Salad-22.jpg"
     },
     {
@@ -60,7 +60,7 @@
         "familyId": 2,
         "name": "Italian Pasta Salad",
         "description": "Fusili pasta, salami, cherry tomatoes, peppers and mozzarella balls.",
-        "price": 10,
+        "price": 6,
         "imgUrl": "https://togetherasfamily.com/wp-content/uploads/2019/03/easy-italian-pasta-salad-2.jpg"
     },
     {
@@ -68,7 +68,7 @@
         "familyId": 2,
         "name": "Chicken Garden Salad",
         "description": "Chicken breast, romaine lettuce, purple cabbage, cherry tomatoes, radishes, limes and ranch sauce.",
-        "price": 10,
+        "price": 6.20,
         "imgUrl": "https://healthyfitnessmeals.com/wp-content/uploads/2021/04/Southwest-chicken-salad-7.jpg"
     },
     {
@@ -76,7 +76,7 @@
         "familyId": 3,
         "name": "Panna Cotta",
         "description": "Milk pudding with vanilla flavour and strawberry marmalade.",
-        "price": 10,
+        "price": 7.29,
         "imgUrl": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2Farchive%2F7ed63c9c6146cde6ea5a4d801cd702d79792670d"
     },
     {
@@ -84,7 +84,7 @@
         "familyId": 3,
         "name": "Macaron",
         "description": "Meringue based cookie sandwich with a chocolate fill.",
-        "price": 10,
+        "price": 6.49,
         "imgUrl": "https://canalcocina.es/medias/_cache/zoom-a8143a8deb9a5217fd52bfb41666f80f-920-518.jpg"
     },
     {
@@ -92,7 +92,7 @@
         "familyId": 3,
         "name": "Mango Dessert",
         "description": "Mango cake with caramel and strawberry.",
-        "price": 10,
+        "price": 7.99,
         "imgUrl": "https://i.pinimg.com/originals/a4/8c/5d/a48c5d3e0be52b5eba7e4b37ae06f400.jpg"
     }
 ]

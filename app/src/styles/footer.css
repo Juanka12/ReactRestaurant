@@ -1,0 +1,52 @@
+.footer-container {
+    height: 40vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 5rem;
+    display: block;
+}
+
+.footer-top {
+    display: flex;
+    background: #990000;
+    height: 20%;
+    color: white;
+    align-items: center;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    background: grey;
+    height: 80%;
+}
+
+.footer-title {
+    margin-left: 5vw;
+    font-size: 3vh;
+    font-weight: 400;
+}
+.footer-bottom-title {
+    font-size: 3vh;
+    font-weight: 400;
+    color: white;
+}
+
+.footer-secondary {
+    margin-left: 2vw;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.footer-logos {
+    margin-right: 5vw;
+    margin-left: auto;
+    fill: white;
+}
+
+.footer-bottom-colmn1 > p {
+    display: block;
+    color: white;
+    font-size: 0.8em;
+}

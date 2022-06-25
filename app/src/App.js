@@ -7,6 +7,7 @@ import Carrito from "./pages/carrito"
 import { Route, Routes} from "react-router-dom";
 import { ShoppingCartProvider } from "./context/shoppingCartContext";
 import './styles/app.css'
+import Footer from "./components/footer";
 
 function App() {
     
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/about" element={<About/>}/>
                 </Routes>
             </div>
+            <Footer/>
         </ShoppingCartProvider>
     )
 }

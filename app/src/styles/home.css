@@ -1,0 +1,34 @@
+.home-banner1 {
+    margin-top: 2vh;
+    box-shadow: 0 -0.1rem 1rem rgba(0, 0, 0, 0.8);
+    height: 30vh;
+    background: #FF5B00;
+    color: white;
+    display: block;
+    font-size: 1.5vh;
+}
+
+.home-banner2 {
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.8);
+    height: 30vh;
+    background: #EDDFB3;
+    color: white;
+    display: block;
+    font-size: 1.5vh;
+}
+
+.banner-text {
+    margin: 0;
+    padding: 1.5em;
+    padding-bottom: 0;
+}
+
+.banner-button {
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 0.4rem;
+    background: rgb(37, 37, 37);
+    color: white;
+    cursor: pointer;
+}
